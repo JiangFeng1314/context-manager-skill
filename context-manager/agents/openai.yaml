@@ -1,0 +1,6 @@
+interface:
+  display_name: "Context Manager"
+  short_description: "Automatically maintain compact project-local context across Codex sessions."
+  default_prompt: "Load and maintain the current project's durable context while completing the task."
+policy:
+  allow_implicit_invocation: true
